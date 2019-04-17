@@ -1,0 +1,32 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<nav class="navbar navbar-expand-lg navbar-blue navbar-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="home">Home Task Planner</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+                aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/users/add">Dodaj Użytkownika</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/users/list">Lista użytkowników</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/tasks/add">Dodaj zadanie</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="/tasks/list">Lista zadań</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+</nav>
