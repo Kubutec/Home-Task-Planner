@@ -13,5 +13,6 @@
 <body>
 
 <%@include file="header.jspf" %>
+</div>
 </body>
 </html>

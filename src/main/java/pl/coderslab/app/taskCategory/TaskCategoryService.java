@@ -8,7 +8,7 @@ import pl.coderslab.app.task.Task;
 import java.util.List;
 @Service
 @Transactional
-public class TaksCategoryService {
+public class TaskCategoryService {
     @Autowired
     public TaskCategoryRepository taskCategoryRepository;
 

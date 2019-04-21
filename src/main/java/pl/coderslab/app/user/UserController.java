@@ -7,6 +7,7 @@ import org.springframework.validation.BindingResult;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
+import javax.validation.Valid;
 import java.awt.print.Book;
 import java.util.List;
 
@@ -22,7 +23,7 @@ public class UserController {
         return "userAdd";
     }
     @PostMapping("/add")
-    public String addUser(@ModelAttribute User user, BindingResult result){
+    public String addUser(@Valid User user, BindingResult result){
         if (result.hasErrors()){
             return "userAdd";
         }userService.saveUser(user);
@@ -43,7 +44,7 @@ public class UserController {
         return "userAdd";
     }
     @PostMapping("/update/{id}")
-    public String update(@ModelAttribute User user, BindingResult result) {
+    public String update(@Valid User user, BindingResult result) {
         if (result.hasErrors()) {
             return "userAdd";
         }

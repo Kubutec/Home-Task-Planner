@@ -17,6 +17,7 @@ import javax.persistence.*;
         private String firstName;
         @NotBlank
         private String secondName;
+        @NotBlank
         @Email
         private String email;
 

@@ -25,10 +25,7 @@ public class UserService {
     }
 
     public void deleteUser(Long id) {
-        User user = readUser(id);
-        if (user!=null){
-            userRepository.delete(user);
-        }
+        userRepository.deleteById(id);
     }
 
     public List<User> findAll() {

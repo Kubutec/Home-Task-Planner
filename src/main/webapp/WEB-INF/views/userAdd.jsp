@@ -20,7 +20,7 @@
 
     <div class="container">
 
-        <header>Dodaj użytkownika</header>
+        <header style="color: #eeeeee">Dodaj użytkownika</header>
 
         <%--<div class="card">--%>
             <%--<div class="card-body">--%>
@@ -28,41 +28,41 @@
             <%--</div>--%>
         <%--</div>--%>
 
-        <div class="card mt-4">
+        <div style="background-image: linear-gradient(#f4a460, #c38150 50%)" class="card mt-4">
 
-            <div class="card-header">
-                Użytkownicy
+            <div style="background-image: linear-gradient(#f4a460, #c38150 50%)" class="card-header">
+                Użytkownik
             </div>
 
-            <div class="card-body">
+            <div style="background-image: linear-gradient(#f4a460, #c38150 50%)" class="card-body">
 
                 <div class="row">
                     <div class="form-group col-md-4">
-                        <label for="firstNameId">Imię :</label>
-                        <form:input path="firstName" class="form-control" id="firstNameId"/>
+                        <label style="background-image: linear-gradient(#f4a460, #c38150 50%)" for="firstNameId">Imię :</label>
+                        <form:input style="background-image: linear-gradient(#f4a460, #c38150 50%)" path="firstName" class="form-control" id="firstNameId"/>
                         <form:errors path="firstName" element="div" cssClass="error"/>
                     </div>
 
                     <div class="form-group col-md-4">
-                        <label for="secondNameId">Nazwisko :</label>
-                        <form:input path="secondName" class="form-control" id="secondNameId"/>
+                        <label style="background-image: linear-gradient(#f4a460, #c38150 50%)" for="secondNameId">Nazwisko :</label>
+                        <form:input style="background-image: linear-gradient(#f4a460, #c38150 50%)" path="secondName" class="form-control" id="secondNameId"/>
                         <form:errors path="secondName" element="div" cssClass="error"/>
                     </div>
                     <div class="form-group col-md-4">
-                        <label for="passwordId">Hasło :</label>
-                        <form:input type="password" path="password" class="form-control" id="passwordId"/>
+                        <label style="background-image: linear-gradient(#f4a460, #c38150 50%)" for="passwordId">Hasło :</label>
+                        <form:input style="background-image: linear-gradient(#f4a460, #c38150 50%)" type="password" path="password" class="form-control" id="passwordId"/>
                         <form:errors path="password" element="div" cssClass="error"/>
                     </div>
 
                     <div class="form-group col-md-4">
-                        <label for="emailId">Adres email :</label>
-                        <form:input  path="email" class="form-control" id="emailId"/>
+                        <label style="background-image: linear-gradient(#f4a460, #c38150 50%)" for="emailId">Adres email :</label>
+                        <form:input style="background-image: linear-gradient(#f4a460, #c38150 50%)"  path="email" class="form-control" id="emailId"/>
                         <form:errors path="email" element="div" cssClass="error"/>
                     </div>
 
                 </div>
 
-                <input type="submit" value="Save">
+                <input style="background-image: linear-gradient(#f4a460, #c38150 50%)" type="submit" value="Save">
 
             </div>
 

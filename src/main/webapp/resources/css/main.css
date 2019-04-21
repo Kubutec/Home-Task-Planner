@@ -1,24 +1,24 @@
     body {
-        background-color: #eee;
+        background-color: #c9c9c9;
         background-size: cover;
         background-image: url("homefoto.jpg");
     }
 
     .error {
-        color: red;
+        color: #ff1703;
     }
 
     header {
         padding: 80px 0 5px;
-        border-bottom: 1px solid #133783;
+        border-bottom: 2px solid color(sandybrown);
         margin-bottom: 10px;
         font-size: 20px;
     }
 
     .navbar-blue {
-        background-color: #3b5998;
-        background-image: linear-gradient(#4e69a2, #3b5998 50%);
-        border-bottom: 1px solid #133783;
+        background-color: #f4a460;
+        background-image: linear-gradient(#f4a460, #c38150 50%);
+        border-bottom: 2px solid #f4a460;
     }
 
     .navbar-blue a {
@@ -27,4 +27,21 @@
 
     .navbar-blue a:hover {
         background: rgba(0, 0, 0, .1);
+    }
+
+    .btn-success {
+        background: #8b4513;
+        border-color: saddlebrown;
+    }
+    .btn-success:hover {
+        background:sandybrown;
+        border-color: saddlebrown;
+    }
+    .btn-danger {
+        background: #b00c08;
+        border-color: #8b0c08;
+    }
+    .btn-danger:hover {
+        background: #f80c08;
+        border-color: #8b0c08;
     }
